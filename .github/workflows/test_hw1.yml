@@ -18,5 +18,5 @@ jobs:
           pip install -r homeworks1/requirements.txt
       - name: Run tests  
         run: |
-          cd homeworks/hw1/
+          cd homework1
           python -m unittest discover -s tests -p "*.py"
