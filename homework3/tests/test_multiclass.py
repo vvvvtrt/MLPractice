@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 import import_ipynb  # noqa: F401
-from homework3.homework import (  # type: ignore
+from ..homework import (  # type: ignore
     OneVsAllClassifier,
     AllVsAllClassifier,
 )
