@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.metrics import r2_score
 from sklearn.linear_model import Lars as SklearnLars
 import import_ipynb  # noqa: F401
-from ..homework import LARS  # type: ignore
+from homework3..homework import LARS  # type: ignore
 
 
 def test_homework_lars():
