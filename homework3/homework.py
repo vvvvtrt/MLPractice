@@ -153,7 +153,7 @@ def plot_ava_classifier(classifier, X, y):
     plt.legend()
     plt.show()
 
-!pip3 install seaborn
+#!pip3 install seaborn
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
